@@ -1,6 +1,6 @@
 # Sales Analytics Dashboard (Excel)
 
-This project is a **Sales Analytics Dashboard** created entirely in **Excel**. It allows you to analyze sales data, track revenue, profit, and costs, and visualize insights using Excel charts and functions.
+This project is a **Sales Analytics Dashboard** created entirely in **Microsoft Excel**. It allows you to analyze sales data, track revenue, profit, and costs, and visualize insights using **Excel functions and pivot tables**.
 
 ---
 
@@ -38,31 +38,30 @@ The dataset includes the following columns:
 
    * Gathered sales data in Excel from company records or sample datasets.
 
-2. **Data Preparation**
+2. **Data Preparation & Cleaning**
 
-   * Organized the data into structured columns.
-   * Checked for missing or inconsistent entries.
+   * Structured the dataset with proper columns.
+   * Removed duplicates and ensured correct data types.
 
-3. **Data Cleaning**
-
-   * Removed duplicates and irrelevant data.
-   * Ensured proper data types (dates, numbers, categories).
-
-4. **Excel Calculations**
+3. **Excel Calculations**
 
    * **Revenue**: `=Order_Quantity * Unit_Price`
    * **Cost**: `=Order_Quantity * Unit_Cost`
    * **Profit**: `=Revenue - Cost`
-   * Used **SUM()** function to calculate total Revenue, Cost, and Profit for summary analysis.
+   * Used **SUM()**, **IF()**, **VLOOKUP()**, **SUMIF()** to analyze data.
 
-5. **Dashboard Visualization**
+4. **Pivot Tables & Charts**
 
-   * Created interactive **Excel charts** to display:
+   * Created pivot tables to summarize data by:
 
-     * Bar charts for sales per product or category
-     * Line charts for monthly revenue and profit trends
-     * Pie charts for customer demographics (age group, gender)
-     * Regional sales analysis with conditional formatting or maps
+     * Product or Product Category
+     * Month or Year
+     * Customer demographics (Age Group, Gender, Region)
+   * Generated charts directly from pivot tables:
+
+     * Bar charts for sales by product
+     * Line charts for monthly revenue trends
+     * Pie charts for customer demographics
 
 ---
 
@@ -81,18 +80,19 @@ The main goal of this project is to **analyze sales data efficiently** and provi
 
 * **Microsoft Excel**
 
-  * Functions: `SUM()`, `IF()`, `VLOOKUP()`, `SUMIF()`, etc.
-  * Charts: Bar, Line, Pie, and conditional formatting for dashboards
+  * Functions: `SUM()`, `IF()`, `VLOOKUP()`, `SUMIF()`
+  * Pivot Tables for summarizing data
+  * Charts (Bar, Line, Pie) for visualization
 
 ---
 
 ## Future Enhancements
 
 * Add slicers and filters for interactive analysis
-* Use pivot tables for dynamic summary reports
-* Incorporate advanced Excel formulas for forecasting sales trends
-* Export Excel dashboard to PDF or PowerPoint for reporting
+* Incorporate conditional formatting for visual insights
+* Extend to multi-sheet dashboards for larger datasets
+* Export dashboard reports for presentations
 
 ---
 
-This Excel project demonstrates the full workflow from **data collection → preparation → cleaning → calculation → visualization**, providing a clear picture of sales, revenue, and profit for decision-making.
+This project demonstrates a complete workflow in **Excel**: from **data collection → preparation → cleaning → calculations → pivot tables → charts**, providing clear insights on **sales, revenue, and profit**.
